@@ -1,0 +1,12 @@
+[project]
+name = "python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-gitlab>=5.1.0",
+    "rich>=13.9.4",
+    "textual>=0.87.1",
+    "typer>=0.13.1",
+]
