@@ -1,0 +1,7 @@
+# 1 - fill the values
+# 2 - rename this file as config.py
+
+gitlab_server = "YOUR GITLAB URL"
+gitlab_project_id = PROJECT_ID
+gitlab_token = "TOKEN"
+gitlab_user = "USER"
