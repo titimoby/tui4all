@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "dataiku-api-client>=13.4.1",
     "python-gitlab>=5.1.0",
     "rich>=13.9.4",
     "textual>=0.87.1",

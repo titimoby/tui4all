@@ -1,0 +1,9 @@
+# Duplicate this file and rename it config.py
+# This file contains parameters
+
+# replace with your DSS instance URL
+host = "http://localhost:11200"
+
+# replace with your DSS API key
+# see https://doc.dataiku.com/dss/latest/publicapi/keys.html
+apiKey = "some_key" 
