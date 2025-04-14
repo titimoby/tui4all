@@ -16,7 +16,7 @@ def start_admin_tui():
 
 
 @app.command("users")
-def project_infos():
+def users_infos():
     """
     Show the list of users from a Dataiku Data Science Studio instance.
     """

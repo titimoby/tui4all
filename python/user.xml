@@ -1,0 +1,22 @@
+<templateSet group="user">
+  <template name="tui-1" value="@app.command(&quot;starter&quot;)&#10;def starter():&#10;    console = Console()&#10;    console.print(&quot;Hello folks!&quot;)" description="starter" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="tui-2" value="@app.command(&quot;users&quot;)&#10;def users_infos():&#10;    &quot;&quot;&quot;&#10;    Show the list of users from a Dataiku Data Science Studio instance.&#10;    &quot;&quot;&quot;&#10;    console = Console()&#10;    table = get_users_table()&#10;    console.print(table)&#10; " description="create users command" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="tui-3" value="@app.command(&quot;tui&quot;)&#10;def todos_tui():&#10;    &quot;&quot;&quot;&#10;    Start the DSS admin TUI.&#10;    &quot;&quot;&quot;&#10;    tui = AdminTui()&#10;    tui.run()" description="add Tui" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="tui-0" value="import typer&#10;from rich.console import Console&#10;&#10;# from components import get_users_table&#10;# from tui import AdminTui&#10;&#10;app = typer.Typer()&#10;&#10;&#10;# tui-1&#10;&#10;# tui-2&#10;&#10;# tui-3&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;    app()" description="init demo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
