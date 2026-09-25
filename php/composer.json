@@ -1,0 +1,14 @@
+{
+    "name": "poc/tui",
+    "description": "POC PHP TUI",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Thierry Chantier",
+            "email": "thierry.chantier@dataiku.com"
+        }
+    ],
+    "require": {
+        "php-tui/php-tui": "^0.2.1"
+    }
+}
