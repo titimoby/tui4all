@@ -3,7 +3,7 @@
 //REPOS central,central-portal-snapshots
 //DEPS dev.tamboui:tamboui-toolkit:0.5.0-SNAPSHOT
 //DEPS dev.tamboui:tamboui-panama-backend:0.5.0-SNAPSHOT
-//DEPS org.tict:reachy-mini-client:0.1.0-SNAPSHOT
+//DEPS show.calm:reachy-mini-client:0.1.0-SNAPSHOT
 //RUNTIME_OPTIONS --enable-native-access=ALL-UNNAMED
 
 import static dev.tamboui.toolkit.Toolkit.column;
@@ -20,10 +20,10 @@ import dev.tamboui.toolkit.event.EventResult;
 import dev.tamboui.tui.event.KeyCode;
 import dev.tamboui.tui.event.KeyEvent;
 
-import org.tict.reachymini.client.Axis;
-import org.tict.reachymini.client.Pose;
-import org.tict.reachymini.client.ReachyClient;
-import org.tict.reachymini.client.Safety;
+import show.calm.reachymini.client.Axis;
+import show.calm.reachymini.client.Pose;
+import show.calm.reachymini.client.ReachyClient;
+import show.calm.reachymini.client.Safety;
 
 /// Two sliders driving the Reachy Mini head: yaw (left/right) and pitch (up/down).
 ///
